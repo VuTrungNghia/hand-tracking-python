@@ -1,0 +1,43 @@
+# Ignore Python virtual environment
+myenv/
+
+# Optional: Exclude pipenv environment
+# .venv/
+
+# Ignore environment-specific files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
+__pycache__/
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude coverage report
+.coverage
+
+# Exclude pytest cache
+__pycache__/
+
+# Exclude macOS metadata files
+.DS_Store
+
+# Exclude editors' and IDEs' files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.user
+*.suo
+*.cache
+*.bak
+*.tmp
+*.log
+*.db
+*.docstates
